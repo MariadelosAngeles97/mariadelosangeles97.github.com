@@ -1,0 +1,165 @@
+/*
+rosita:#FFA5AB
+rosa:#DA627D
+morado:#A53860
+burdeo:#450920
+*/
+@media (min-width:900px){
+    th{
+        display: table-cell;
+    }
+    td{
+        width: auto;
+        display: table-cell;
+
+    }
+    td:nth-of-type(1){
+        font-size: 1em;
+    }
+}
+@media(min-height:550px){
+    .content{
+        height: 500px;
+    }
+}
+
+html{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sansita', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color:white ;
+}
+a:hover{/* selector de pseudoclase*/
+    opacity: 0.8;
+}
+a:focus{
+    background: #1c1a27;
+}
+.container{
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    
+}
+.content{
+    max-width: 960px;
+    background-color: #ffff;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* overflow: scroll; */
+    height: auto;
+    margin-top: 5em
+}
+td{
+    width: auto;
+}
+
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3d1635;
+}
+
+th{
+    display: none;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+    font-weight: bold;
+    background-color:rgba(229, 145, 162, 0.8);
+    border-radius: 10px;
+
+    
+}
+.table thead{
+    font-size: 25px;
+    background-color:rgba(61, 22, 53, 0.8);
+
+}
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+    
+}
+
+.table tr:nth-child(even){
+    background-color:#b8235a;
+}
+
+svg{
+    color: rgb(245, 245, 43);
+}
+.bi-geo-alt-fill{
+    color: #3d1635;
+
+}
+.title-item{
+    border-bottom: 4px solid #3d1635;
+    padding-bottom: 1em;
+}
+.address{
+    font-weight: bold;
+    color: #3d1635;
+    font-size: 1.2em;
+    margin-top: 2em;
+    display: inline-block;
+
+}
+.position{
+    background-color: #3d1635;
+    color: white;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    font-size: 2em;
+}
+
+/*RESTAURANTS*/
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.close{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+    background-color: #3d1635;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-image{
+    float: left;
+    margin-right: 1em;
+    width: 350px;
+}
