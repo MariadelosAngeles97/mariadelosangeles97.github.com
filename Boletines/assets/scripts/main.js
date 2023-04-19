@@ -15,8 +15,7 @@ links.forEach(function(link){
     element.classList.add("animate__animated", "animate__fadeOutUp");
 
     setTimeout(function(){
-      location.href = "/index.html";
-
+      location.href = "/boletines";
     },600)
 
   return false;
